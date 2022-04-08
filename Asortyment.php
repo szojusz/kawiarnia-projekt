@@ -8,6 +8,6 @@
         <title>Asortyment - Kawiarnia</title>
     </head>
     <body>
-
+        <?php include "menu.php"; ?>
     </body>
 </html>

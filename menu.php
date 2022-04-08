@@ -7,10 +7,10 @@
         <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="btn btn-success text-white" href="Zamowienia.php">Zarządzanie Zamówieniami</a>
+                    <a class="btn btn-success text-white" href="zamowienia.php">Zarządzanie Zamówieniami</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-success text-white" href="Towary.php">Zarządzanie Towarem</a>
+                    <a class="btn btn-success text-white" href="asortyment.php">Zarządzanie Asortymentem</a>
                 </li>
                 <li class="nav-item">
                     <a class="btn btn-success text-white" href=".php">Zamówienia</a>    <!-- brak linku -->
