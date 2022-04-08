@@ -9,5 +9,6 @@
     </head>
     <body>
         <?php include "menu.php"; ?>
+        <h1>Witaj</h1>
     </body>
 </html>

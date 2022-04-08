@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm navbar-dark bg-">
+<nav class="navbar navbar-expand-sm navbar-dark bg-success">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.php"><img src="https://img.icons8.com/windows/24/ffffff/home.png"/>Home</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">

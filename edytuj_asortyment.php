@@ -8,7 +8,7 @@
         <title>Dodaj Zamówienie - Kawiarnia</title>
     </head>
     <body>
-    <!-- Nowy klient -->
+    <!-- Nowy asortyment -->
         <?php include "menu.php";
         $typ = $_REQUEST['typ'];
         switch ($typ) {
@@ -39,9 +39,9 @@
                         Kategoria: <b><?php echo $kategoria;?>,</b><br>
                         Cena: <b><?php echo $cena;?>.</b>
                     </p>   
-                    <a href="asortyment.php"><button type="button" class="btn btn-success">Powrót do klientów</button></a>  
+                    <a href="asortyment.php"><button type="button" class="btn btn-success">Powrót do asortymentu</button></a>  
                 </div>
-    <!-- Edycja klienta -->
+    <!-- Edycja asortymentu -->
         <?php
                 break;
             case "edycja":
@@ -73,9 +73,9 @@
                         Kategoria: <b><?php echo $kategoria;?>,</b><br>
                         Cena: <b><?php echo $cena;?>.</b>
                     </p>   
-                    <a href="asortyment.php"><button type="button" class="btn btn-success">Powrót do klientów</button></a>  
+                    <a href="asortyment.php"><button type="button" class="btn btn-success">Powrót do asortymentu</button></a>  
                 </div>
-    <!-- Usuwanie klienta -->
+    <!-- Usuwanie asortymentu -->
         <?php
                 break;
             case "delete":
@@ -94,11 +94,10 @@
                         Kategoria: <b><?php echo $kategoria;?>,</b><br>
                         Cena: <b><?php echo $cena;?>.</b>
                     </p>   
-                    <a href="asortyment.php"><button type="button" class="btn btn-success">Powrót do klientów</button></a>  
+                    <a href="asortyment.php"><button type="button" class="btn btn-success">Powrót do asortymentu</button></a>  
                 </div>
             <?php
                 break;
-        }?>    
-
+        }?>
     </body>
 </html>
